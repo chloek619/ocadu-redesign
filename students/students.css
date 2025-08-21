@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Alexandria', sans-serif;
+    src: url();
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+#home {
+    width: 12%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#title {
+    font-family: Alexandria;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.box2 {
+    margin-left: 10px;
+}
+
+p {
+    font-family: Alexandria;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.post {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#text {
+    font-family: Alexandria;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.menubar {
+    float: right;
+    font-family: Alexandria;
+    font-weight: 400;
+    font-size: 15px;
+    width: 8%;
+    text-align: left;
+    margin-top: 3%;
+    line-height: 15px;
+    color: rgb(71, 71, 71);
+}
+
+.m1 {
+    margin-right: 60px;
+}

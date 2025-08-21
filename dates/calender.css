@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Alexandria', sans-serif;
+    src: url();
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+body {
+    background: white;
+}
+
+
+img {
+    width: 12%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+#post{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+}
+
+#title {
+    font-family: Alexandria;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* #content {
+    font-family: Alexandria;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 130px;
+} */
+
+
+
+
+.day {
+    font-family: Alexandria;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.calender {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 820px;
+    padding: 0 1.4rem;
+    margin-top: .3rem;
+  }
+  
+  .dateHead {
+    margin-bottom: .4rem;
+  }
+  
+  .dateHead div {
+    background: #7a7a7a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    
+  }
+  
+  .grid div {
+    padding: .6rem;
+    font-size: .9rem;
+    cursor: pointer;
+  }
+  
+  .dateBoard div {
+    color: #222;
+    font-size: 13px;
+    min-height: 6rem;
+    padding: .6rem .8rem;
+    border-radius: .6rem;
+    border: 1px solid #eee;
+  }
+  
+  .noColor {
+    background: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .btn {
+   display: block;
+   width: 15px;
+   height: 15px;
+   border: 3px solid #7a7a7a;
+   border-width: 3px 3px 0 0;
+   cursor: pointer;
+   margin-top: 10px;
+  }
+  
+  .prevDay {
+    transform: rotate(-135deg);
+  }
+  
+  .nextDay {
+    transform: rotate(45deg);
+  }
+  
+  .dateBoard div p {
+    font-weight: normal;
+    margin-top: .2rem;
+  }
+  
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;  
+    font-family: Alexandria;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+  .detail {
+      margin: 0 auto;
+      width: 80%;
+  }
+
+  .summary {
+      position: relative;
+      display: inline-block;
+      margin-top: 10px;
+  }
+
+  summary {
+      color: white;
+      background: #a1a1a1;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 15px;
+  }
+
+  .summaryText {
+      margin-left: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: 200;
+      line-height: 25px;
+  }
+
+
+  .headerTop {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.menubar {
+    float: right;
+    font-family: Alexandria;
+    font-weight: 400;
+    font-size: 15px;
+    width: 8%;
+    text-align: left;
+    margin-top: 3%;
+    line-height: 15px;
+    color: rgb(71, 71, 71);
+}
+
+.m1 {
+    margin-right: 60px;
+}
+
+
+
+
+  

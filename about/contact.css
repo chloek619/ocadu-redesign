@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Alexandria', sans-serif;
+    src: url();
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+#home {
+    width: 12%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+p {
+    text-align: center;
+    vertical-align: top;
+    font-family: Alexandria;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 200px;
+
+}
+
+.address {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 48%;
+    vertical-align: top;
+}
+
+#addressImage {
+    width: 100%;
+}
+
+.title {
+    font-family: Alexandria;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.address2 {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#mapImage {
+    width: 100%;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 15px;
+}
+
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.menubar {
+    float: right;
+    /* border: 1px solid red; */
+    font-family: Alexandria;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    width: 8%;
+    text-align: left;
+    margin-top: 3%;
+    color: rgb(71, 71, 71);
+}
+
+.m1 {
+    margin-right: 60px;
+}
